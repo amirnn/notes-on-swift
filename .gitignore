@@ -1,0 +1,6 @@
+vslatexbuild
+.DS_Store
+
+*.pdf
+*.log
+*.aux
