@@ -1,0 +1,12 @@
+# MACOS Related
+.DS_Store
+
+# VSCODE Settings
+.vscode/*
+!.vscode/settings.json
+
+# Artifacts
+*.pdf
+*.log
+*.aux
+*.pyg
