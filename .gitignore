@@ -1,8 +1,0 @@
-vslatexbuild
-_minted-notes
-.DS_Store
-.vscode
-*.pdf
-*.log
-*.aux
-*.pyg
