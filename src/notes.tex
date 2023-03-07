@@ -1,16 +1,25 @@
 \documentclass[]{amsart}
 \usepackage{lineno} \linenumbers
 \usepackage{graphicx}
+\usepackage[outputdir={build}]{minted}
 
 
 \begin{document}
-\title{Abstract for: Real-time Standard View Classification in Transthoracic Echocardiography using 
-Convolutional Neural Networks}
+\title{Notes on Swift}
 \author{Amir Nourinia}
 \date{\today}
 \maketitle
 
-\section*{Abstract (Why? What?)}
+\section*{A Swift Tour}
+Use \textbf{let} for declaring constants and \textbf{var} for variables. The value of constant
+can be initlized only once and it does not need to be initlized prior to compilation. Hence, we can
+do it during runtime! But it can only be initialized only once.
+
+\begin{minted}{swift}
+  let x = 42
+  println("Hello, \(x)!")
+\end{minted}
+
 
 \textbf{Why are they doing it?}
 
@@ -20,14 +29,14 @@ They are using CNN based deep learning architectures to perform CVC.
 \textbf{How are they doing it?}
 They improve upon previous CNN architectures specifically (GoogleNet and AlexNet)
 
-\section*{Their Goals:}
+\section*{The Basics}
   \begin{itemize}
     \item Performance Evaluation
     \item Experiments on orientation guidance for finding optimal apical views 
     and a comparison between models trained with either 2-D or 3-D data
   \end{itemize}
 
-\section*{What are their results?}
+\section*{Basic Operators}
 
   February 7--21 \emph{please} use my
   temporary e-mail address:
